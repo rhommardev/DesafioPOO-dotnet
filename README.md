@@ -19,4 +19,14 @@ Você deve criar as suas classes de acordo com o diagrama abaixo:
 3. O método **InstalarAplicativo** deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
 
 ## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+## Solução
+
+Para resolver o desafio, foi implementado um sistema console em .NET seguindo os princípios da programação orientada a objetos. A solução contém:
+
+- **Classe abstrata Smartphone:** Serve como modelo base para os celulares, contendo propriedades comuns (Número, Modelo, IMEI, Memória) e métodos como Ligar, ReceberLigacao e o método abstrato InstalarAplicativo.
+- **Classes derivadas Nokia e Iphone:** Ambas herdam de Smartphone e implementam de forma específica o método InstalarAplicativo, simulando o comportamento de instalação de aplicativos em cada tipo de aparelho.
+- **Testes no Program.cs:** Foram criadas instâncias das classes Nokia e Iphone, testando os métodos implementados para garantir o funcionamento correto do sistema.
+
+Dessa forma, o projeto demonstra o uso de herança, abstração e polimorfismo, promovendo o reuso de código e a flexibilidade para diferentes comportamentos conforme o modelo do celular.
+
+O codigo foi testado com succeso implementando detalhes pessoais 
